@@ -4,8 +4,8 @@ import ceopic from "../images/ceopic1.png";
 
 export default function About() {
   return (
-    <div className="bg-[#f5f5f5] py-10  px-[2rem]  h-auto ">
-      <div className="max-w-7xl mx-auto">
+    <div className="bg-[#f5f5f5] mx-auto py-10  px-5 h-auto">
+      <div className="">
         <div className="">
           <h6 className="text-[#E04448] mb-2 text-[1.5rem] font-semibold">
             ABOUT US
@@ -40,7 +40,7 @@ export default function About() {
                 {/* ************************************** */}
                 <div className="md:w-1/3 lg:w-1/4">
                   <div className="h-85 md:h-full relative ">
-                    <div className="absolute inset-0 flex  items-center justify-center bg-[#132244]">
+                    <div className="absolute inset-0 flex  items-center justify-center bg-[#122344]">
                       <Image src={ceopic} alt="ceopic" />
                     </div>
                     <div className="absolute inset-x-0 bottom-0 p-4 bg-[#0A2342CC] ">
@@ -59,13 +59,13 @@ export default function About() {
                 </div>
                 {/* ***************** */}
 
-                <div className="p-15 md:pt-10 mt-15 md:mt-0 md:w-2/3 lg:w-3/4">
-                  <div className="text-[#E04448] font-semibold md:text-lg">LEADERSHIP</div>
+                <div className="p-3 md:w-2/3 lg:w-3/4 ">
+                  <div className="text-[#E04448] font-semibold md:text-lg mt-35 md:mt-3">LEADERSHIP</div>
                   <h3 className="text-[1.5rem] font-bold text-[#0A2342]">
                     Meet Our Founder & CEO
                   </h3>
-                  <div className="mt-4">
-                    <div className="flex items-center mb-4">
+                  <div className="p-3">
+                    <div className="flex items-center mb-2">
                       <h4 className="text-[#0A2342] text-[1.5rem] font-bold">
                         Syed Haroon Hasan
                       </h4>

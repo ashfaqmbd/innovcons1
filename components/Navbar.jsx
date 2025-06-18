@@ -1,5 +1,5 @@
 "use client";
-
+import Form from "@/components/Form";
 import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import Image from "next/image";
