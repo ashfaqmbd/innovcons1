@@ -2,7 +2,7 @@ import faq from "@/data/faq.json";
 
 export default function Faq() {
   return (
-    <div className="mx-auto pl-[0.5rem] pr-[0.5rem] pt-[4rem] pb-[40px] bg-white">
+    <div className="mx-auto pt-[1rem] pb-[2rem] bg-white">
       <div className="rounded-2xl p-8 bg-white text-gray-700 ">
         <div className="text-center mb-16">
           <h6 className="font-bold mb-2 text-[1.25rem] md:text-[2rem] text-[#E04448]">FAQs</h6>

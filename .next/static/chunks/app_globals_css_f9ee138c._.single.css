@@ -759,6 +759,10 @@
     padding-top: calc(var(--spacing) * 10);
   }
 
+  .pt-\[1rem\] {
+    padding-top: 1rem;
+  }
+
   .pt-\[4rem\] {
     padding-top: 4rem;
   }
@@ -809,6 +813,10 @@
 
   .pb-20 {
     padding-bottom: calc(var(--spacing) * 20);
+  }
+
+  .pb-\[2rem\] {
+    padding-bottom: 2rem;
   }
 
   .pb-\[40px\] {
