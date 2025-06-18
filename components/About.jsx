@@ -4,7 +4,7 @@ import ceopic from "../images/ceopic1.png";
 
 export default function About() {
   return (
-    <div className="bg-[#f5f5f5] mx-auto py-10  px-5 h-auto">
+    <div className="bg-[#f5f5f5] mx-auto py-10  px-2 h-auto">
       <div className="">
         <div className="">
           <h6 className="text-[#E04448] mb-2 text-[1.5rem] font-semibold">
@@ -59,8 +59,8 @@ export default function About() {
                 </div>
                 {/* ***************** */}
 
-                <div className="p-3 md:w-2/3 lg:w-3/4 ">
-                  <div className="text-[#E04448] font-semibold md:text-lg mt-15 md:mt-3">LEADERSHIP</div>
+                <div className="p-1 md:w-2/3 lg:w-3/4 ">
+                  <div className="text-[#E04448] font-semibold md:text-lg mt-10 md:mt-3">LEADERSHIP</div>
                   <h3 className="text-[1.5rem] font-bold text-[#0A2342]">
                     Meet Our Founder & CEO
                   </h3>
