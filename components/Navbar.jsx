@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="bg-white sticky top-0 z-10 shadow-lg">
-      <div className="h-23 flex justify-between items-center ">
+      <div className="h-8 md:h-20 flex justify-between items-center ">
         {/* <div className="w-35 h-35 p-7 ">
           <Image src={Logo} alt="logo" />
         </div> */}
