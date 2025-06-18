@@ -2,11 +2,11 @@ import faq from "@/data/faq.json";
 
 export default function Faq() {
   return (
-    <div className="mx-auto pl-[32px] pr-[32px] pt-[96px] pb-[40px] bg-white">
+    <div className="mx-auto pl-[0.5rem] pr-[0.5rem] pt-[4rem] pb-[40px] bg-white">
       <div className="rounded-2xl p-8 bg-white text-gray-700 ">
         <div className="text-center mb-16">
-          <h6 className="font-bold mb-2 text-[#E04448]">FAQs</h6>
-          <h2 className="text-[#122344] font-extrabold text-[30px]">
+          <h6 className="font-bold mb-2 text-[1.25rem] md:text-[2rem] text-[#E04448]">FAQs</h6>
+          <h2 className="text-[#122344] font-extrabold text-[1.50rem] md:text-[2rem]">
             <span className=" border-b-3 border-[#E04448]">Frequentl</span>y
             Asked Questions
           </h2>

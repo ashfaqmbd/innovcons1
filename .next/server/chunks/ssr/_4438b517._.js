@@ -1182,7 +1182,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$faq$2e$json__$28$jso
 ;
 function Faq() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "mx-auto pl-[32px] pr-[32px] pt-[96px] pb-[40px] bg-white",
+        className: "mx-auto pl-[0.5rem] pr-[0.5rem] pt-[4rem] pb-[40px] bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rounded-2xl p-8 bg-white text-gray-700 ",
             children: [
@@ -1190,7 +1190,7 @@ function Faq() {
                     className: "text-center mb-16",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                            className: "font-bold mb-2 text-[#E04448]",
+                            className: "font-bold mb-2 text-[1.25rem] md:text-[2rem] text-[#E04448]",
                             children: "FAQs"
                         }, void 0, false, {
                             fileName: "[project]/components/Faq.jsx",
@@ -1198,7 +1198,7 @@ function Faq() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-[#122344] font-extrabold text-[30px]",
+                            className: "text-[#122344] font-extrabold text-[1.50rem] md:text-[2rem]",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: " border-b-3 border-[#E04448]",
