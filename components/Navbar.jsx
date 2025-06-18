@@ -77,13 +77,13 @@ export default function Navbar() {
           About US
         </a>
         <a
-          href=""
+          href="#dest"
           className="text-white  text-[1rem] px-4 block hover:text-red-500"
         >
           Destinations
         </a>
         <a
-          href=""
+          href="#ielts"
           className="text-white  text-[1rem] px-4 block hover:text-red-500 "
         >
           IELTS
