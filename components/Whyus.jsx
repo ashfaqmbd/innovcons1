@@ -17,7 +17,7 @@ export default function Whyus() {
 
       <Features />
       <div className="mt-8">
-        <button className="md:bg-[#E04448] bg-red-500 md:p-3 mx-10 rounded-lg p-2 text-sm font-semibold">
+        <button className=" bg-red-500 md:p-3 mx-10 rounded-lg p-2 text-sm text-white font-semibold">
           <a href="">Start Your Journey</a>
         </button>
       </div>

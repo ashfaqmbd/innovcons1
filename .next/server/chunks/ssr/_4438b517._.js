@@ -593,7 +593,7 @@ function Whyus() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mt-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "md:bg-[#E04448] bg-red-500 md:p-3 mx-10 rounded-lg p-2 text-sm font-semibold",
+                    className: " bg-red-500 md:p-3 mx-10 rounded-lg p-2 text-sm text-white font-semibold",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "",
                         children: "Start Your Journey"
@@ -2052,11 +2052,11 @@ function Hero() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-[#32435E] text-[3rem] md:text-[5rem] font-bold text-center",
+                    className: "text-[#32435E] text-[3rem] md:text-[5rem] font-bold text-center tracking-tighter",
                     children: [
                         "Your Gateway to",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-red-600 text-[3rem] md:text-[5rem] font-bold",
+                            className: "text-red-600 text-[3rem] md:text-[5rem] font-bold tracking-tighter",
                             children: " DREAM"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.jsx",
@@ -2070,7 +2070,7 @@ function Hero() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-red-600 text-[3rem] md:text-[5rem] font-bold text-center",
+                    className: "text-red-600 text-[3rem] md:text-[5rem] font-bold text-center tracking-tighter",
                     children: "Education"
                 }, void 0, false, {
                     fileName: "[project]/components/Hero.jsx",
@@ -2078,7 +2078,7 @@ function Hero() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center text-gray-600 text-lg md:text-xl px-5 py-8 w-1/2",
+                    className: "text-center text-gray-600 text-lg md:text-xl px-2 py-5 w-1/2",
                     children: "Fast, personalized guidance for students seeking admission to top universities in the UK, USA, Canada, Ireland, Australia, Europe"
                 }, void 0, false, {
                     fileName: "[project]/components/Hero.jsx",

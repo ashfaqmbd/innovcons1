@@ -18,12 +18,12 @@ export default function Hero() {
           <hr className="border-red-500 border-1"/>
         </div>
 
-        <h1 className="text-[#32435E] text-[3rem] md:text-[5rem] font-bold text-center">
+        <h1 className="text-[#32435E] text-[3rem] md:text-[5rem] font-bold text-center tracking-tighter">
           Your Gateway to
-          <span className="text-red-600 text-[3rem] md:text-[5rem] font-bold"> DREAM</span>
+          <span className="text-red-600 text-[3rem] md:text-[5rem] font-bold tracking-tighter"> DREAM</span>
         </h1>
-        <h1 className="text-red-600 text-[3rem] md:text-[5rem] font-bold text-center">Education</h1>
-        <p className="text-center text-gray-600 text-lg md:text-xl px-5 py-8 w-1/2">
+        <h1 className="text-red-600 text-[3rem] md:text-[5rem] font-bold text-center tracking-tighter">Education</h1>
+        <p className="text-center text-gray-600 text-lg md:text-xl px-2 py-5 w-1/2">
           Fast, personalized guidance for students seeking admission to top
           universities in the UK, USA, Canada, Ireland, Australia, Europe
         </p>
