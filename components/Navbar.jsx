@@ -55,7 +55,9 @@ export default function Navbar() {
             Virtual Consultation
           </button>
         </div>
-        <button
+       
+      </div>
+ <button
           onClick={() => {
             setIsOpen(!isOpen);
           }}
@@ -63,8 +65,6 @@ export default function Navbar() {
         >
          <CiMenuBurger />
         </button>
-      </div>
-
       <div
         className={`${
           isOpen ? "block" : "hidden"
