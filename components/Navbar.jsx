@@ -61,9 +61,9 @@ export default function Navbar() {
           onClick={() => {
             setIsOpen(!isOpen);
           }}
-          className="block sm:hidden px-4 text-[2rem] text-gray-900"
+          className="block sm:hidden px-4  text-[2rem] text-gray-950"
         >
-         <CiMenuBurger />
+          <CiMenuBurger />
         </button>
       <div
         className={`${
