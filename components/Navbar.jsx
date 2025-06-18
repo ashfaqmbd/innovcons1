@@ -71,7 +71,7 @@ export default function Navbar() {
         } sm:hidden bg-[#122344] space-y-2 pb-3`}
       >
         <a
-          href=""
+          href="#about"
           className="text-white  text-[1rem] pt-4 px-4 block hover:text-red-500 "
         >
           About US
@@ -89,13 +89,13 @@ export default function Navbar() {
           IELTS
         </a>
         <a
-          href=""
+          href="#services"
           className="text-white  text-[1rem] px-4 block hover:text-red-500 "
         >
           Services
         </a>
         <a
-          href=""
+          href="#faq"
           className="text-white  text-[1rem] px-4 block hover:text-red-500"
         >
           FAQs
