@@ -60,7 +60,7 @@ export default function About() {
                 {/* ***************** */}
 
                 <div className="p-3 md:w-2/3 lg:w-3/4 ">
-                  <div className="text-[#E04448] font-semibold md:text-lg mt-35 md:mt-3">LEADERSHIP</div>
+                  <div className="text-[#E04448] font-semibold md:text-lg mt-15 md:mt-3">LEADERSHIP</div>
                   <h3 className="text-[1.5rem] font-bold text-[#0A2342]">
                     Meet Our Founder & CEO
                   </h3>
