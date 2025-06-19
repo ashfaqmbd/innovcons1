@@ -39,11 +39,10 @@
   :root, :host {
     --color-red-500: oklch(63.7% .237 25.331);
     --color-red-600: oklch(57.7% .245 27.325);
-    --color-amber-400: oklch(82.8% .189 84.429);
-    --color-amber-700: oklch(55.5% .163 48.998);
     --color-blue-950: oklch(28.2% .091 267.935);
     --color-gray-100: oklch(96.7% .003 264.542);
     --color-gray-200: oklch(92.8% .006 264.531);
+    --color-gray-300: oklch(87.2% .01 258.338);
     --color-gray-400: oklch(70.7% .022 261.325);
     --color-gray-500: oklch(55.1% .027 264.364);
     --color-gray-600: oklch(44.6% .03 256.802);
@@ -52,6 +51,7 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
+    --container-lg: 32rem;
     --text-sm: .875rem;
     --text-sm--line-height: calc(1.25 / .875);
     --text-lg: 1.125rem;
@@ -375,6 +375,10 @@
     margin-top: 30px;
   }
 
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
+
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -463,8 +467,24 @@
     height: auto;
   }
 
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
+
   .w-1\/2 {
     width: 50%;
+  }
+
+  .w-2\/3 {
+    width: 66.6667%;
+  }
+
+  .w-3\/4 {
+    width: 75%;
+  }
+
+  .w-5 {
+    width: calc(var(--spacing) * 5);
   }
 
   .w-6 {
@@ -489,6 +509,10 @@
 
   .w-full {
     width: 100%;
+  }
+
+  .w-lg {
+    width: var(--container-lg);
   }
 
   .shrink-0 {
@@ -632,6 +656,10 @@
     border-color: #fff3;
   }
 
+  .border-gray-300 {
+    border-color: var(--color-gray-300);
+  }
+
   .border-red-500 {
     border-color: var(--color-red-500);
   }
@@ -664,14 +692,6 @@
 
   .bg-\[\#f5f5f5\] {
     background-color: #f5f5f5;
-  }
-
-  .bg-amber-400 {
-    background-color: var(--color-amber-400);
-  }
-
-  .bg-amber-700 {
-    background-color: var(--color-amber-700);
   }
 
   .bg-blue-950 {
@@ -860,14 +880,6 @@
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
 
-  .text-\[0\.5rem\] {
-    font-size: .5rem;
-  }
-
-  .text-\[0\.7rem\] {
-    font-size: .7rem;
-  }
-
   .text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -937,6 +949,10 @@
     letter-spacing: var(--tracking-widest);
   }
 
+  .text-\[\#\#092342\] {
+    color: # #092342;
+  }
+
   .text-\[\#0A2342\] {
     color: #0a2342;
   }
@@ -945,32 +961,16 @@
     color: #333c;
   }
 
-  .text-\[\#12244\] {
-    color: #12244;
-  }
-
-  .text-\[\#12344\] {
-    color: #12344;
-  }
-
   .text-\[\#32435E\] {
     color: #32435e;
   }
 
-  .text-\[\#122244\] {
-    color: #122244;
+  .text-\[\#092342\] {
+    color: #092342;
   }
 
   .text-\[\#122344\] {
     color: #122344;
-  }
-
-  .text-\[\#132244\] {
-    color: #132244;
-  }
-
-  .text-\[\#132344\] {
-    color: #132344;
   }
 
   .text-\[\#333333B3\] {
@@ -987,10 +987,6 @@
 
   .text-\[\#FFFFFFCC\] {
     color: #fffc;
-  }
-
-  .text-\[0\.7\] {
-    color: .7;
   }
 
   .text-black {
@@ -1077,6 +1073,19 @@
     }
   }
 
+  .focus\:border:focus {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+
+  .focus\:border-gray-300:focus {
+    border-color: var(--color-gray-300);
+  }
+
+  .focus\:border-gray-500:focus {
+    border-color: var(--color-gray-500);
+  }
+
   @media (width >= 40rem) {
     .sm\:block {
       display: block;
@@ -1108,6 +1117,12 @@
   }
 
   @media (width >= 48rem) {
+    .md\:grid {
+      display: grid;
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:h-20 {
       height: calc(var(--spacing) * 20);
     }
@@ -1128,6 +1143,30 @@
   @media (width >= 48rem) {
     .md\:w-2\/3 {
       width: 66.6667%;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:w-3 {
+      width: calc(var(--spacing) * 3);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:w-3\/4 {
+      width: 75%;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:w-34 {
+      width: calc(var(--spacing) * 34);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:w-full {
+      width: 100%;
     }
   }
 
@@ -1214,13 +1253,6 @@
   @media (width >= 48rem) {
     .md\:text-\[5rem\] {
       font-size: 5rem;
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:font-bold {
-      --tw-font-weight: var(--font-weight-bold);
-      font-weight: var(--font-weight-bold);
     }
   }
 
