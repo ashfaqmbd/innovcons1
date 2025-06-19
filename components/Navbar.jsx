@@ -1,9 +1,10 @@
 "use client";
-import Form from "@/components/Form";
+
 import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import Image from "next/image";
 import Logo from "../images/Innovate-Logo-png.png"
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,9 +52,10 @@ export default function Navbar() {
           >
             FAQs
           </a>
-          <button className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-blue-950 mx-4">
-            Virtual Consultation
-          </button>
+          <Link className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-blue-950 mx-4"
+            href="/forms">Virtual Consultation
+          </Link>
+      
         </div>
        
       </div>
