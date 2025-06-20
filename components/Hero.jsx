@@ -21,19 +21,18 @@ export default function Hero() {
           <hr className="border-red-500 border-1" />
         </div> */}
         {/* *********************** */}
-        <div className="leading-8 md:leading-25">
-          <div className="block">
-            <h1 className="text-[#32435E] text-4xl md:text-6xl lg:text-7xl font-bold text-center max-w-4xl mx-auto mb-6">
-              Your Gateway to
-              <span className="text-red-600 text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                {" "}
-                DREAM Education
+        
+          <div className="text-center mx-auto px-6">
+            <h1 className="text-[#32435E] text-4xl md:text-6xl lg:text-7xl font-bold max-w-4xl mx-auto mb-4">
+              Your Gateway to {""}
+              <span className="text-red-600">
+                 DREAM Education
               </span>
             </h1>
           </div>
-        </div>
+       
         {/* ********************************** */}
-        <p className="text-center text-gray-700 text-[1rem] md:text-xl md:w-2/3 px-2 py-5">
+        <p className=" text-gray-700 text-lg md:text-xl max-w-2xl mx-auto mb-6 text-center">
           Fast, personalized guidance for students seeking admission to top
           universities in the UK, USA, Canada, Ireland, Australia, Europe
         </p>
