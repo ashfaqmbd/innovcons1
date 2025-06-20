@@ -23,17 +23,14 @@ export default function Hero() {
         {/* *********************** */}
         <div className="leading-8 md:leading-25">
           <div className="block">
-            <h1 className="text-[#32435E] text-[1.50rem] md:text-[5rem] font-bold text-center tracking-tight">
+            <h1 className="text-[#32435E] text-4xl md:text-6xl lg:text-7xl font-bold text-center max-w-4xl mx-auto mb-6">
               Your Gateway to
-              <span className="text-red-600 text-[1.50rem] md:text-[5rem] font-bold tracking-tight">
+              <span className="text-red-600 text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                 {" "}
-                DREAM
+                DREAM Education
               </span>
             </h1>
           </div>
-          <h1 className="text-red-600 text-[1.50rem] md:text-[5rem] font-bold text-center tracking-tight">
-            Education
-          </h1>
         </div>
         {/* ********************************** */}
         <p className="text-center text-gray-700 text-[1rem] md:text-xl md:w-2/3 px-2 py-5">

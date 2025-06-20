@@ -41,9 +41,9 @@ export default function About() {
                 <div className="md:w-1/3 lg:w-1/4">
                   <div className="h-85 md:h-full relative ">
                     <div className="absolute inset-0 flex  items-center justify-center bg-[#122344] ">
-                      <Image src={ceopic} alt="ceopic" className="object-cover mt-5 "/>
+                      <Image src={ceopic} alt="ceopic" className="mt-35 md:mt-10 "/>
                     </div>
-                    <div className="absolute inset-x-0 bottom-0 p-4 bg-[#0A2342CC] ">
+                    <div className="absolute inset-x-0 -bottom-30 md:bottom-0 p-4 bg-[#0A2342CC] ">
                       <div className="flex justify-center space-x-6 text-white">
                         <div className="text-center">
                           <p className="text-3xl font-bold">37</p>
@@ -59,7 +59,7 @@ export default function About() {
                 </div>
                 {/* ***************** */}
 
-                <div className="md:w-2/3 lg:w-3/4 py-18 px-1 md:px-5 ">
+                <div className="md:w-2/3 lg:w-3/4 pt-25 px-1 md:px-5">
                   <div className="text-[#E04448] font-semibold md:text-lg ">LEADERSHIP</div>
                   <h3 className="text-[1.25rem] font-bold text-[#0A2342]">
                     Meet Our Founder & CEO
