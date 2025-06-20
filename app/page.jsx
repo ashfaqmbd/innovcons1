@@ -7,7 +7,6 @@ import Faq from "@/components/Faq";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import Link from "next/link";
 
 
 export default function HomePage() {
@@ -28,7 +27,7 @@ export default function HomePage() {
         <Faq />
       </div>
       <Footer />
-    <Link href="/product">product page</Link>
+    
     </div>
   );
 }

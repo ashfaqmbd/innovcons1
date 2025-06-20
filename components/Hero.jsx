@@ -5,25 +5,38 @@ import usflag from "../images/usa-flag.svg";
 import canflag from "../images/can-flag.svg";
 import ausflag from "../images/aus-flag.svg";
 import eurflag from "../images/eur-flag.svg";
+
 export default function Hero() {
   return (
     <>
-      <div className="bg-white flex flex-col justify-center items-center">
-        <div className="text-center pb-20 tracking-0 md:tracking-[1rem] hover:scale-125 duration-1000 pt-5 md:pt-15">
+      <div className="bg-white flex flex-col justify-center items-center py-20">
+        {/* <div className="text-center pb-20 tracking-0 md:tracking-[1rem] hover:scale-125 duration-1000 pt-5 md:pt-15">
           <h1 className="text-red-600 text-3xl font-bold">
             INNOVATE
-            <span className="text-[#32435E] text-3xl font-bold"> CONSULTING
+            <span className="text-[#32435E] text-3xl font-bold">
+              {" "}
+              CONSULTING
             </span>
           </h1>
-          <hr className="border-red-500 border-1"/>
+          <hr className="border-red-500 border-1" />
+        </div> */}
+        {/* *********************** */}
+        <div className="leading-8 md:leading-25">
+          <div className="block">
+            <h1 className="text-[#32435E] text-[1.50rem] md:text-[5rem] font-bold text-center tracking-tight">
+              Your Gateway to
+              <span className="text-red-600 text-[1.50rem] md:text-[5rem] font-bold tracking-tight">
+                {" "}
+                DREAM
+              </span>
+            </h1>
+          </div>
+          <h1 className="text-red-600 text-[1.50rem] md:text-[5rem] font-bold text-center tracking-tight">
+            Education
+          </h1>
         </div>
-
-        <h1 className="text-[#32435E] text-[3rem] md:text-[5rem] font-bold text-center tracking-tighter">
-          Your Gateway to
-          <span className="text-red-600 text-[3rem] md:text-[5rem] font-bold tracking-tighter"> DREAM</span>
-        </h1>
-        <h1 className="text-red-600 text-[3rem] md:text-[5rem] font-bold text-center tracking-tighter">Education</h1>
-        <p className="text-center text-gray-600 text-lg md:text-xl px-2 py-5 w-1/2">
+        {/* ********************************** */}
+        <p className="text-center text-gray-700 text-[1rem] md:text-xl md:w-2/3 px-2 py-5">
           Fast, personalized guidance for students seeking admission to top
           universities in the UK, USA, Canada, Ireland, Australia, Europe
         </p>
@@ -32,7 +45,7 @@ export default function Hero() {
           <BsArrowRight className=" mx-2 inline font-bold text-xl" />
         </button>
 
-        <div className="flex gap-2 md:gap-3 pt-10 pb-10 md:pb-15">
+        <div className="flex gap-2 md:gap-3 pt-10 md:pt-20 pb-10 md:pb-15">
           <Image
             className="rounded-lg w-10 hover:scale-125 duration-1000"
             src={ukflag}

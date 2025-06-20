@@ -40,8 +40,8 @@ export default function About() {
                 {/* ************************************** */}
                 <div className="md:w-1/3 lg:w-1/4">
                   <div className="h-85 md:h-full relative ">
-                    <div className="absolute inset-0 flex  items-center justify-center bg-[#122344]">
-                      <Image src={ceopic} alt="ceopic" />
+                    <div className="absolute inset-0 flex  items-center justify-center bg-[#122344] ">
+                      <Image src={ceopic} alt="ceopic" className="object-cover mt-5 "/>
                     </div>
                     <div className="absolute inset-x-0 bottom-0 p-4 bg-[#0A2342CC] ">
                       <div className="flex justify-center space-x-6 text-white">
@@ -59,20 +59,20 @@ export default function About() {
                 </div>
                 {/* ***************** */}
 
-                <div className="p-0 md:w-2/3 lg:w-3/4 ">
-                  <div className="text-[#E04448] font-semibold md:text-lg mt-10 md:mt-3">LEADERSHIP</div>
-                  <h3 className="text-[1.5rem] font-bold text-[#0A2342]">
+                <div className="md:w-2/3 lg:w-3/4 py-18 px-1 md:px-5 ">
+                  <div className="text-[#E04448] font-semibold md:text-lg ">LEADERSHIP</div>
+                  <h3 className="text-[1.25rem] font-bold text-[#0A2342]">
                     Meet Our Founder & CEO
                   </h3>
                   <div className="p-3">
                     <div className="flex items-center mb-2">
-                      <h4 className="text-[#0A2342] text-[1.5rem] font-bold">
+                      <h4 className="text-[#0A2342] text-[1.25rem] font-bold">
                         Syed Haroon Hasan
                       </h4>
                       <span className="mx-2 font-extrabold text-[#E04448]  pb-4">
                         .
                       </span>
-                      <p className="text-[#E04448]">
+                      <p className="text-[#E04448] text-[1rem]">
                         Founder & Chief Executive Officer
                       </p>
                     </div>

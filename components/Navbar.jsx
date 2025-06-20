@@ -5,6 +5,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import Image from "next/image";
 import Logo from "../images/Innovate-Logo-png.png"
 import Link from "next/link";
+import { GiWorld } from "react-icons/gi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,11 +16,12 @@ export default function Navbar() {
           <Image src={Logo} alt="logo" />
         </div> */}
 
-        <div className="text-white font-bold text-3xl mx-4 leading-3 tracking-tight ">
-          INNOVATE{" "}
-          <span className="block text-lg text-center tracking-widest text-white-500 ">
-            CONSULTING
-          </span>
+        
+          <div className="text-red-600 my-auto pt-1 font-bold text-[1.75rem] mx-auto md:mx-3 leading-5 tracking-tight">
+            INN<span><GiWorld className="inline pb-1 text-[#122344]"/></span>VATE{" "}
+            <span className="block text-[1rem] text-center tracking-widest text-[#122344] ">
+              CONSULTING
+            </span>          
         </div>
         <div className="hidden sm:block">
           <a
@@ -52,21 +54,22 @@ export default function Navbar() {
           >
             FAQs
           </a>
-          <Link className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-blue-950 mx-4"
-            href="/forms">Virtual Consultation
+          <Link
+            className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-blue-950 mx-4"
+            href="/forms"
+          >
+            Virtual Consultation
           </Link>
-      
         </div>
-       
       </div>
- <button
-          onClick={() => {
-            setIsOpen(!isOpen);
-          }}
-          className="block sm:hidden px-4  text-[2rem] text-gray-950"
-        >
-          <CiMenuBurger />
-        </button>
+      <button
+        onClick={() => {
+          setIsOpen(!isOpen);
+        }}
+        className="block sm:hidden px-4  text-[2rem] text-gray-950"
+      >
+        <CiMenuBurger />
+      </button>
       <div
         className={`${
           isOpen ? "block" : "hidden"
@@ -103,10 +106,11 @@ export default function Navbar() {
           FAQs
         </a>
         <div className="text-center">
-        <Link href="/forms">
-          <button className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-red-500 w-full mx-2 cursor-pointer">
-            Virtual Consultation
-          </button></Link>
+          <Link href="/forms">
+            <button className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-red-500 w-full mx-2 cursor-pointer">
+              Virtual Consultation
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
