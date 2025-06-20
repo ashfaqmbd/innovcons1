@@ -11,8 +11,8 @@ export default function Contact() {
             Back to Home
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-x-1">
-          <div className="bg-gray-100 p-3 md:p-5  rounded-lg m-5">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-x-1 ">
+          <div className="bg-gray-100 p-3 md:p-5  rounded-lg m-5 shadow-lg">
             <div>
               <h1 className="text-[#0A2342] text-[1.75rem]  font-semibold">
                 Start Your Journey
@@ -120,7 +120,8 @@ export default function Contact() {
                 What Happens Next?
               </h1>
             </div>
-            <div className="grid grid-cols-4 bg-gray-100 rounded-lg text-gray-500">
+            <div className="grid grid-cols-4 bg-gray-100 rounded-lg
+             text-gray-500 pb-5">
               <div className="text-center flex justify-center items-center font-bold ">
                 1
               </div>

@@ -104,7 +104,7 @@ export default function Navbar() {
         </a>
         <div className="text-center">
           <button className="text-[1rem] font-semibold p-3 rounded-lg text-white bg-red-500 w-full mx-2">
-            Virtual Consultation
+            <Link href="/forms">Virtual Consultation</Link>
           </button>
         </div>
       </div>
