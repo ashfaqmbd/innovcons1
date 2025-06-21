@@ -133,6 +133,7 @@
   :root, :host {
     --color-red-500: oklch(63.7% .237 25.331);
     --color-red-600: oklch(57.7% .245 27.325);
+    --color-amber-500: oklch(76.9% .188 70.08);
     --color-blue-950: oklch(28.2% .091 267.935);
     --color-gray-100: oklch(96.7% .003 264.542);
     --color-gray-300: oklch(87.2% .01 258.338);
@@ -158,6 +159,8 @@
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
@@ -500,10 +503,6 @@
     margin-bottom: calc(var(--spacing) * 6);
   }
 
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
-  }
-
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
@@ -576,8 +575,8 @@
     height: auto;
   }
 
-  .min-h-screen {
-    min-height: 100vh;
+  .h-screen {
+    height: 100vh;
   }
 
   .w-6 {
@@ -811,6 +810,10 @@
     background-color: var(--color-gray-300);
   }
 
+  .bg-gray-950 {
+    background-color: var(--color-gray-950);
+  }
+
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -879,10 +882,6 @@
     padding-block: calc(var(--spacing) * 3);
   }
 
-  .py-5 {
-    padding-block: calc(var(--spacing) * 5);
-  }
-
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -919,24 +918,8 @@
     padding-top: calc(var(--spacing) * 10);
   }
 
-  .pt-25 {
-    padding-top: calc(var(--spacing) * 25);
-  }
-
-  .pt-35 {
-    padding-top: calc(var(--spacing) * 35);
-  }
-
-  .pt-45 {
-    padding-top: calc(var(--spacing) * 45);
-  }
-
   .pt-50 {
     padding-top: calc(var(--spacing) * 50);
-  }
-
-  .pt-55 {
-    padding-top: calc(var(--spacing) * 55);
   }
 
   .pt-\[1rem\] {
@@ -1046,9 +1029,9 @@
     line-height: calc(var(--spacing) * 5);
   }
 
-  .leading-8 {
-    --tw-leading: calc(var(--spacing) * 8);
-    line-height: calc(var(--spacing) * 8);
+  .leading-6 {
+    --tw-leading: calc(var(--spacing) * 6);
+    line-height: calc(var(--spacing) * 6);
   }
 
   .leading-\[2\.25rem\] {
@@ -1116,6 +1099,10 @@
 
   .text-\[\#FFFFFFCC\] {
     color: #fffc;
+  }
+
+  .text-amber-500 {
+    color: var(--color-amber-500);
   }
 
   .text-black {
@@ -1355,12 +1342,6 @@
   }
 
   @media (width >= 48rem) {
-    .md\:pt-10 {
-      padding-top: calc(var(--spacing) * 10);
-    }
-  }
-
-  @media (width >= 48rem) {
     .md\:pt-15 {
       padding-top: calc(var(--spacing) * 15);
     }
@@ -1375,6 +1356,27 @@
   @media (width >= 48rem) {
     .md\:pb-15 {
       padding-bottom: calc(var(--spacing) * 15);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-2xl {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-3xl {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-4xl {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
 
@@ -1418,19 +1420,6 @@
   }
 
   @media (width >= 48rem) {
-    .md\:text-\[5rem\] {
-      font-size: 5rem;
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:leading-25 {
-      --tw-leading: calc(var(--spacing) * 25);
-      line-height: calc(var(--spacing) * 25);
-    }
-  }
-
-  @media (width >= 48rem) {
     .md\:tracking-\[1rem\] {
       --tw-tracking: 1rem;
       letter-spacing: 1rem;
@@ -1464,6 +1453,27 @@
   @media (width >= 64rem) {
     .lg\:grid-cols-4 {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:text-3xl {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:text-4xl {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:text-5xl {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
 
